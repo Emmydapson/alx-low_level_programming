@@ -8,9 +8,9 @@
 void print_rev(char *s)
 {
 	int longi = 0;
-		int n;
+	int n;
 
-	while (*s != '\10')
+	while (*s != '\0')
 	{
 		longi++;
 		s++;
