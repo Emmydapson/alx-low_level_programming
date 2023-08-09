@@ -40,7 +40,7 @@ char *_strdup(char *str)
 
 
 
-	for (r = 0; str[c]; c++)
+	for (c = 0; str[c]; c++)
 
 		aaa[c] = str[c];
 
